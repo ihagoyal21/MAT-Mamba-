@@ -37,4 +37,4 @@ The MAT-Mamba Hybrid successfully integrated global context modeling with only a
 ## Repository Structure
 * `Phase2_Baseline_SwinUNETR.ipynb`: Data engineering pipeline, baseline model initialization, training logic, and baseline evaluation.
 * `Phase2_Hybrid_MAT_Mamba.ipynb`: Custom Mamba installation (via pre-compiled wheels), `Mamba3DLayer` and `MambaBottleneck` class implementations, hybrid training logic, and WandB profiling.
-
+* `Phase2_Prototype_Tensor_Verification.ipynb`: Architectural unit-testing and tensor dimensionality verification for the 768-dimensional Mamba bottleneck injection.
